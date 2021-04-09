@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Fruits freshness Detection app
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <strong>Start capturing your fruit</strong>
+    <br>
+    <ion-button [routerLink]="['/camera']">
+      <ion-icon slot="start" name="camera-sharp" ></ion-icon>
+    </ion-button>
+  </div>
+</ion-content>

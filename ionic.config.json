@@ -1,0 +1,7 @@
+{
+  "name": "Fruits Freshness detection app",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

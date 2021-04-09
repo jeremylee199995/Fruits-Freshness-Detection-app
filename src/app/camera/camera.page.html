@@ -1,0 +1,16 @@
+  <ion-header>
+  <ion-toolbar>
+    <ion-title>Camera</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-button *ngIf="isBrowser">
+    <ion-label>
+      Upload Image
+    </ion-label>
+    <input type="file" (change)="loadImageOnURL($event)" id="fileInput"
+    accept="image/png,image/jpeg">
+  </ion-button>
+</ion-content>
